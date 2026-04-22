@@ -39,7 +39,7 @@ def fetch_satellite_image(lat, lon):
     os.makedirs(gee_out_dir, exist_ok=True)
     
     # Check if we should attempt GEE
-    gee_api_key = getattr(Config, 'GEE_API_KEY', 'AIzaSyAQI-rZC_eCghLlnSw9CjQYiu1bAWtfGfI')
+    gee_api_key = getattr(Config, 'GEE_API_KEY', 'xx')
     
     # If GEE initializes safely, try fetching real-time data
     if init_gee():
