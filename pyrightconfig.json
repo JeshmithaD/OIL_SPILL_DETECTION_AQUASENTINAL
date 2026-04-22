@@ -1,0 +1,14 @@
+{
+    "venvPath": "/Users/jesh/Downloads/Mini Project Final",
+    "venv": ".venv",
+    "include": [
+        "backend"
+    ],
+    "executionEnvironments": [
+        {
+            "root": "backend",
+            "pythonVersion": "3.10",
+            "pythonPath": "/Users/jesh/Downloads/Mini Project Final/.venv/bin/python"
+        }
+    ]
+}
