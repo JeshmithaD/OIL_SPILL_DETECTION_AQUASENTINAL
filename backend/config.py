@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    SECRET_KEY = os.environ.get('SECRET_KEY', 'aquasentinel-secret-key-2024')
-    JWT_SECRET_KEY = os.environ.get('JWT_SECRET_KEY', 'aquasentinel-jwt-secret-2024')
+    SECRET_KEY = os.environ.get('SECRET_KEY', 'xx')
+    JWT_SECRET_KEY = os.environ.get('JWT_SECRET_KEY', 'xx')
     JWT_ACCESS_TOKEN_EXPIRES = timedelta(days=7)
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(os.path.abspath(os.path.dirname(__file__)), 'instance', 'aquasentinel.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False

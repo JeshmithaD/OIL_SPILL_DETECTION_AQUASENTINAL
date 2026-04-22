@@ -339,7 +339,7 @@ def sos_trigger():
         alert_type='sos',
         severity='critical',
         title='🚨 SOS EMERGENCY TRIGGERED',
-        message=f'Emergency SOS triggered by {user.username}. {data.get("message", "Immediate assistance required.")}',
+        message=f'Emergency SOS triggered by {user.full_name}. {data.get("message", "Immediate assistance required.")}',
         latitude=data.get('latitude', 0),
         longitude=data.get('longitude', 0)
     )
